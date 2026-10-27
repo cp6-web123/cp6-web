@@ -1,10 +1,2 @@
-
-const Card = () => {
-  return (
-    <>
-      
-    </>
-  )
-}
-
-export default Card
+export default function Card({ nome, marca, preco, imagem }) {
+    return (
